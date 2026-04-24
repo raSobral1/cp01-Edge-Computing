@@ -79,7 +79,6 @@ Simulação de circuitos eletrônicos
     https://www.youtube.com/watch?v=h7nl7mWaeWg
 
 👨‍💻 Integrantes
-
 .Rafael Taboada Sobral
 .Guilherme Mazzini Nunes Canno 
 .Luan Schinello Garbin 
