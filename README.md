@@ -45,7 +45,9 @@ Com base nessa leitura, o Arduino classifica o nível de luminosidade e aciona L
 
 🔗 Jumpers
 
-🔋 Funcionamento
+
+
+🔌Funcionamento
 
 O LDR altera sua resistência conforme a incidência de luz:
 
@@ -64,10 +66,11 @@ Ação do Sistema :
 
 LED verde
 LED amarelo
-LED vermelh
+LED vermelho
 
 
 🧠 Lógica do Sistema
+
 Leitura analógica do LDR (valores de 0 a 1023)
 Processamento com estrutura if/else
 Acionamento dos LEDs conforme o nível de luminosidade
