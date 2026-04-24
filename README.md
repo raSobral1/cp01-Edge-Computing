@@ -18,19 +18,33 @@ O sistema faz uso de um sensor LDR (Light Dependent Resistor) para capturar a in
 Com base nessa leitura, o Arduino classifica o nível de luminosidade e aciona LEDs indicadores para sinalizar a condição do ambiente:
 
 🟢 Verde → ambiente ideal
+
 🟡 Amarelo → atenção necessária
+
 🔴 Vermelho → excesso de luz (prejudicial)
+
 ⚙️ Componentes Utilizados
+
 🔌 1x Arduino Uno
+
 🌗 1x LDR (sensor de luminosidade)
+
 🔧 1x Resistor 10kΩ (divisor de tensão)
+
 💡 3 LEDs:
+
 🟢 Verde → condição adequada
+
 🟡 Amarelo → alerta
+
 🔴 Vermelho → alta luminosidade
+
 🔩 3x Resistores 220Ω
+
 🧩 Protoboard
+
 🔗 Jumpers
+
 🔋 Funcionamento
 
 O LDR altera sua resistência conforme a incidência de luz:
@@ -40,18 +54,24 @@ Menos luz → maior resistência
 
 O Arduino interpreta esses valores e define o estado do ambiente:
 
-Condição                              Ação do Sistema
+Condição :                             
 	                    
-.Baixa luz	                         .LED verde
-.Luz intermediária	                 .LED amarelo
-.Alta luminosidade	                 .LED vermelho
+Baixa luz	                         
+Luz intermediária	                 
+Alta luminosidade	                 
 
+Ação do Sistema :
+
+LED verde
+LED amarelo
+LED vermelh
 
 
 🧠 Lógica do Sistema
 Leitura analógica do LDR (valores de 0 a 1023)
 Processamento com estrutura if/else
 Acionamento dos LEDs conforme o nível de luminosidade
+
 🔍 Observação Técnica
 
 Os valores de referência podem ser ajustados diretamente no código para melhorar a precisão, dependendo das condições de iluminação do ambiente.
@@ -81,8 +101,11 @@ Simulação de circuitos eletrônicos
 👨‍💻 Integrantes
 
 .Rafael Taboada Sobral
-.Guilherme Mazzini Nunes Canno 
-.Luan Schinello Garbin 
+
+.Guilherme Mazzini Nunes Canno
+
+.Luan Schinello Garbin
+
 .Beatriz de Araujo Périgo
 
 🏫 Contexto Acadêmico
